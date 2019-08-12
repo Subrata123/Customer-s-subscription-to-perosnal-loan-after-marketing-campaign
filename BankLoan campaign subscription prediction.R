@@ -29,7 +29,7 @@ library("kernlab")
 library(mlr)
 
 # 1.2. Importing the data
-setwd("C:/Users/sm505388/Desktop/Work_Subrata/ML_Office/GL_DT")
+setwd("C:/Users/Desktop/GL_DT")
 Loan_data <- fread(file = "bank-full.csv", sep = ",", stringsAsFactors = TRUE, 
                    header = TRUE, na.strings = c("", "na", "NA", "Null", "NULL", "null"))
 Loan_data <- as.data.frame(Loan_data)
